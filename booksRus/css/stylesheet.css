@@ -1,0 +1,93 @@
+/* GENERAL/ALL PAGES */
+.menu {
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.8);
+    color:  rgba(15, 15, 15);
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    text-align: center;
+    z-index: 9999;
+    font-weight: bold;
+}
+#menuHR {
+    width: 100%;
+    margin: 0;
+}
+.menu a {
+    color: rgba(15, 15, 15);
+    padding: 20px;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: rgb(172, 85, 4);
+}
+.menu a:active {
+    color: rgb(248, 137, 33);
+}
+
+/* HOME PAGE */
+#homeMenu {
+    position: absolute;
+}
+/*Menu must overlap the image on home page, but not overlap the content on other pages*/
+.home {
+    position: relative;
+    text-align: center;
+}
+.busName {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 65px; 
+    background-color: rgba(15, 15, 15, 0.3);
+    text-emphasis: outline;
+}
+#homeText {
+    position: absolute;
+    margin: 5px;
+    width: 100%;
+    font-size: 19px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* BOOK LAUNCHES PAGE */
+#launchTable {
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#launchTable th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+#launchTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(15, 15, 15, 0.3);
+    color: white;
+}
+
+/* BOOKINGS PAGE */
+#createBooking {
+    background-color: rgb(199, 195, 192);
+    padding: 20px;
+    margin-top: 15px;
+}
+input, select {
+    margin: 8px;
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgba(15, 15, 15, 0.3);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
